@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 0;
+    margin:0;
+    background: linear-gradient(red,white,blue);
+}
+header{
+    text-align: center;
+
+    color:#333;
+    padding: 20px;
+}
+
+nav.boto a{
+    text-decoration: none;
+    color:#333;
+    margin-right: 20px;
+    font-size: 18px;
+
+
+}
+nav.boto a:hover{
+    text-decoration: underline;
+    text-align: center;
+    
+}
+main{
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    text-align: center;
+}
+
+p{
+    padding: 30px;
+}
+article.joy{
+    margin: 20px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-left: 1px solid#4caf50;
+    border-radius: 8px;
+}
+article.joy strong{
+    margin-top: 20px;
+    display: block;
+    font-size: 20px;
+    color:#4caf50;
+}
+aside.reussite{
+    margin: 20px;
+    padding: 20px;
+    background: #efefef;
+    border-radius: 10px;
+}
+aside.reussite a{
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: aqua;
+}
+
+aside.reussite a:hover{
+    color: aquamarine;
+    margin-right: 20px;
+    font-size: 15px;
+    position: absolute;
+    text-align: center;
+}
+
+footer{
+    background-color: #333;
+    color:white;
+    text-align:center ;
+}
